@@ -1,0 +1,6 @@
+While machine learning inference models are already transforming computing as we know it, 
+the hard truth is that using multiple, gigantic datasets to train them still takes a ton of processing power.
+Using a trained model to predict an event requires much less 
+but still more than our pocket devices can currently handle. 
+Processing an image with a deep neural network implies billions of operations — huge matrices of many dimensions being multiplied, inversed, reshaped, and Fourier transformed.
+
