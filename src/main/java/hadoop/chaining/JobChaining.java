@@ -1,4 +1,4 @@
-package hadoop.advanced.chaining;
+package hadoop.chaining;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.FileSystem;
