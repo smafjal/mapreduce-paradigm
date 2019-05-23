@@ -80,6 +80,15 @@ def customInputData(limit):
             w.write(str(x[0])+" "+str(x[1])+'\n')
 
 
+def gen_wordlist(path):
+    with open(path,'r') as r, open('wordlists.txt','w') as w:
+        for x in r:
+            x=x.strip()
+            x="\n".join(x.split())
+            w.write(x)
+
+
+
 def main():
     # data = gen_avg_data(10000)
     # w_path = 'avg_data.txt'
@@ -92,10 +101,12 @@ def main():
 
     # write_list(inverted_path, inver_data)
 
-    gen_join_data(limit)
+    # gen_join_data(limit)
 
-    gen_user_data(limit)
+    # gen_user_data(limit)
     # customInputData(limit)
+
+    gen_wordlist('wordcount.txt')
 
 
 if __name__ =="__main__":
